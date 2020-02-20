@@ -16,7 +16,7 @@ function Header() {
                         <div className="product_content">
                             <div className="product_details">
 
-                                <PageTitle title="Pure argan oil" subTitle="Skin no.1 / 06" description="use to form up  and boost the radiance of the face. 100% pure and complete from organic farming" />
+                                <PageTitle title="ganesh pure argan oil" subTitle="Skin no.1 / 06" description="use to form up  and boost the radiance of the face. 100% pure and complete from organic farming" />
 
                                 
 

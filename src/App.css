@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
+ * {
+   padding: none;
+   margin: none;
+   text-decoration: none;
+   list-style-type: none;
+ }
+ a:hover {
+   text-decoration: none;
+ }
+ .product_img {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+   margin-top: 160px;
+   text-align: center;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .product {
+   padding-bottom: 250px;
+   background: grey;
+ }
+
+ .product_details {
+
+    margin-top: 140px;
+    
+ }
+ .product_details span {
+   margin-left: 65px;
+   font-size: 13px;
+   font-weight: 450;
+ }
+ .product_content h1 {
+   font-size: 50px;
+   margin-bottom: 0;
+   margin-left: 65px;
+ }
+ 
+.product_content p {
+  font-size: 19px;
+  margin-left: 65px;
+  margin-top: 35px;
+}
+.mill_liters ul li {
+  margin-left: 26px;
+  margin-top: 22px;
+}
+ .mill_liters ul li:first-child a {
+   padding: 3px 35px;
+   background: #000;
+   border: 1px solid #000;
+   color: #fff;
+ }
+
+ .mill_liters li a {
+   border: 1px solid #000;
+   padding: 3px 35px;
+   color: #000;
+ }
+
+ .vegan_free {
+   align-items: center;
+   justify-content: space-between;
+    width: 478px;
+ }
+
+ .vegan {
+   margin-top: 40px;
+   margin-left: 25px;
+ }
+
+ .btn-group {
+   border: 1px solid #000;
+   margin-top: 20px;
+   border-radius: 5px;
+ }
+ 
+ .btn-group button {
+  border: none;
+  background: #fff;
+  /* border: 1px solid #000;  */
+  /* margin-top: 25px; */
+ }
+
+ .btn-group button{
+    padding: 0px 13px 4px 13px;
   }
+
+.vegan_free p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 69px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .vegan_free p span {
+    margin-left: 0;
+    font-size: unset;
+    font-weight: 600;
   }
-  to {
-    transform: rotate(360deg);
+
+  .add_bill p a:nth-of-type(1) {
+    background-color: #000;
+    padding: 10px 100px;
+    font-size: 15px;
+    color: #fff;
   }
-}
+
+  .add_bill p a:nth-of-type(2) {
+    padding: 10px 40px;
+    font-size: 15px;
+    color: #fff;
+    background: #000;
+    border-left: 1px solid #fff;
+  }
+  .deliver {
+    margin-left: 35px;
+  }
+  .deliver p {
+    font-size: 14px;
+    
+  }
+
+  
